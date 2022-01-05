@@ -83,7 +83,7 @@ body {
     gap: 10px;
     align-items: center;
     justify-content: center;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .digital {
@@ -139,7 +139,7 @@ body {
     background: linear-gradient(30deg, rgba(0, 42, 138, 1) 0%, rgba(9, 113, 255, 1) 100%);
     position: absolute;
     right: 50%;
-    top: 35%;
+    top: 230px;
     z-index: -300;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
