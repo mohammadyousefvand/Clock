@@ -24,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 0 20px;
+    padding: 0 20px;
 }
 
 .clock-analog {
@@ -33,6 +33,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     border-radius: 50%;
     box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.25);
     background: rgba(255, 255, 255, 0.15);
@@ -80,22 +86,22 @@ body {
 .digital-h {
     width: 100%;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
     justify-content: center;
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
 .digital {
-    width: 80px;
-    height: 120px;
+    width: 60px;
+    height: 80px;
     background-color: darkturquoise;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .digital-h span {
@@ -126,7 +132,7 @@ body {
     background: linear-gradient(30deg, rgba(255, 38, 0, 1) 0%, rgba(255, 96, 64, 1) 100%);
     position: absolute;
     left: 50%;
-    top: 20px;
+    top: 150px;
     z-index: -200;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
@@ -139,7 +145,7 @@ body {
     background: linear-gradient(30deg, rgba(0, 42, 138, 1) 0%, rgba(9, 113, 255, 1) 100%);
     position: absolute;
     right: 50%;
-    top: 230px;
+    top: 300px;
     z-index: -300;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
@@ -157,17 +163,11 @@ body {
     .shape1 {
         width: 160px;
         height: 160px;
-        top: 30px;
     }
 
     .shape2 {
         width: 160px;
         height: 160px;
-    }
-
-    .digital {
-        width: 60px;
-        height: 100px;
     }
 
     .hr-analog {
