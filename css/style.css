@@ -61,19 +61,19 @@ body {
 .hr-analog {
     height: 60px;
     width: 10px;
-    top: 80px;
+    top: 92px;
 }
 
 .min-analog {
     height: 75px;
     width: 5px;
-    top: 70px;
+    top: 77px;
 }
 
 .sec-analog {
     height: 90px;
     width: 3px;
-    top: 50px;
+    top: 60px;
     background-color: rgb(255, 38, 0);
 }
 
@@ -144,25 +144,41 @@ body {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
-@media screen and (max-width:500px){
-    .clock-analog{
+@media screen and (max-width:500px) {
+    .clock-analog {
         width: 280px;
         height: 280px;
     }
-    .clock-analog img{
+
+    .clock-analog img {
         width: 300px;
     }
-    .shape1{
+
+    .shape1 {
         width: 160px;
         height: 160px;
         top: 30px;
     }
-    .shape2{
+
+    .shape2 {
         width: 160px;
         height: 160px;
     }
-    .digital{
+
+    .digital {
         width: 60px;
         height: 100px;
+    }
+
+    .hr-analog {
+        top: 81px;
+    }
+
+    .min-analog {
+        top: 67px;
+    }
+
+    .sec-analog {
+        top: 50px;
     }
 }
