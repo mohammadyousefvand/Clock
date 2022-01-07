@@ -6,6 +6,7 @@ const secDigit = $.querySelector('.sec-digit')
 const hrAnalog = $.querySelector('.hr-analog')
 const minAnalog = $.querySelector('.min-analog')
 const secAnalog = $.querySelector('.sec-analog')
+const amOrPm = $.querySelector('.amorpm')
 
 
 // Digital Clock
@@ -30,6 +31,13 @@ setInterval(function () {
     }
     if (seconddigit < 10){
         secDigit.innerHTML = '0' + seconddigit
+    }
+
+    if (hourdigit >= 0 && hourdigit < 12) {
+        amOrPm.innerHTML = 'Am'
+    }
+    if (hourdigit >= 12 && hourdigit <= 23) {
+        amOrPm.innerHTML = 'Pm'
     }
 
 }, 1000)

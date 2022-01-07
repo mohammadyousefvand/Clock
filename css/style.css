@@ -123,6 +123,12 @@ body {
     background: linear-gradient(30deg, rgba(0, 132, 159, 1) 0%, rgba(71, 238, 255, 1) 100%);
 }
 
+.amorpm{
+    font-size: 20px;
+    margin : 40px 5px 0;
+    color: #fff;
+}
+
 .shape1 {
     width: 200px;
     height: 200px;
