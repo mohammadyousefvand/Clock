@@ -37,6 +37,9 @@ setInterval(function () {
     week.innerHTML = weekDate
     month.innerHTML = monthDate
 
+    if (dayDate < 10) {
+        day.innerHTML = '0' + dayDate
+    }
     if (hourdigit < 10) {
         hrDigit.innerHTML = '0' + hourdigit
     }
